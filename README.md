@@ -5,17 +5,27 @@ This is a full-stack app that shows a random joke every time you refresh or clic
 ---
 
 ## 📁 Project Structure
-
+```bash
 laugh-api-app/
-├── backend/ # Flask backend API
-│ ├── src/app.py
-│ └── requirements.txt
-├── frontend/ # React frontend
-│ ├── public/index.html
-│ ├── src/App.js
-│ ├── src/index.js
-│ └── package.json
-└── azure-pipelines.yml # Azure DevOps CI/CD
+│
+├── backend/                         # Flask backend
+│   ├── src/
+│   │   └── app.py                   # Flask app with random joke API
+│   └── requirements.txt             # Python dependencies
+│
+├── frontend/                        # React frontend
+│   ├── public/
+│   │   └── index.html               # Main HTML file
+│   ├── src/
+│   │   ├── App.js                   # Fetches and displays jokes
+│   │   └── index.js                 # React app entry point
+│   └── package.json                 # npm dependencies & scripts
+│
+├── azure-pipelines.yml             # Azure DevOps CI/CD pipeline
+└── README.md                       # Project instructions and documentation
+```
+
+
 
 ## Local Setup Instructions
 
