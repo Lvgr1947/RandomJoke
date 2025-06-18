@@ -45,7 +45,7 @@ stages:
 
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: '<YOUR-SERVICE-CONNECTION-NAME>'
+        azureSubscription: 'test-sc'
         appType: 'webAppLinux'
-        appName: '<YOUR-FLASK-APP-NAME>'
+        appName: 'laughApi'
         package: '$(System.DefaultWorkingDirectory)/backend'
