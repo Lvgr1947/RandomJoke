@@ -48,14 +48,14 @@ python src\app.py
 ### Frontend (React)
 
 1. Open a new terminal:
-
+```bash
 bash
 Copy
 Edit
 cd frontend
 npm install
 npm start
-
+```
 2. Visit: http://localhost:3000
 
 
