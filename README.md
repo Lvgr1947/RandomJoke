@@ -49,9 +49,6 @@ python src\app.py
 
 1. Open a new terminal:
 ```bash
-bash
-Copy
-Edit
 cd frontend
 npm install
 npm start
